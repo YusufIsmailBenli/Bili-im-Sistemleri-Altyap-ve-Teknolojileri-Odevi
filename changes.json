@@ -1,0 +1,15 @@
+[
+  {
+    "event": "created",
+    "path": "/home/yusuf/bsm/test/test_file.txt"
+  },
+  {
+    "event": "renamed",
+    "old_file": "/home/yusuf/bsm/test/test_file.txt",
+    "new_file": "/home/yusuf/bsm/test/new_test_file.txt"
+  },
+  {
+    "event": "deleted",
+    "path": "/home/yusuf/bsm/test/new_test_file.txt"
+  }
+]
