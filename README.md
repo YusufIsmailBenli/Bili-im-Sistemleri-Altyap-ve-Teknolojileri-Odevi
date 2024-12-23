@@ -12,7 +12,7 @@ Linux üzerinde Python 3.8 veya daha güncel bir sürümün kurulu olduğundan e
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip
-
+```
 Gerekli Python kütüphanelerini yüklemek için pip kullanabilirsiniz:
 pip install watchdog
 
