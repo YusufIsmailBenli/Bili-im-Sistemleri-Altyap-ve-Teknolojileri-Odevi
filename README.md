@@ -1,20 +1,8 @@
-# Bili-im-Sistemleri-Altyap-ve-Teknolojileri-Odevi
-Bu ödevde linux ortamında çalışan bir python scripti yazdım. Bu script belli bir dizini sürekli kontrol ederek o dizinde herhangi bir değişiklik olduğunda bunu .json formatında kaydetmeli.
+# Bilisim-Sistemleri-Altyapi-ve-Teknolojileri-Odevi
 
-Aşağıda kullandığım bazı komutlar bulunuyor:
-1-Dizin izleme servisi çalışıyor mu? 
-systemctl status bsm.service
+Dizin İzleme ve Loglama Servisi
+Bu proje, belirlenen bir dizindeki değişiklikleri izleyen ve bu değişiklikleri JSON formatında log dosyasına kaydeden bir Python servisini içermektedir. Servis, Linux ortamında çalışacak ve başlangıçta bir sistem servisi olarak yapılandırılacaktır.
 
-2-Changes.json dosyasının içi dolu mu?
-cat /home/yusuf/bsm/logs/changes.json
-
-3-Changes.json dolu ise içini temizle.
-> /home/yusuf/bsm/logs/changes.json
-
-4-Test klasörünün içine yeni dosya oluştur, düzenle ve sil.
-touch /home/yusuf/bsm/test/test_file.txt
-mv /home/yusuf/bsm/test/test_file.txt /home/yusuf/bsm/test/new_test_file.txt
-rm /home/yusuf/bsm/test/new_test_file.txt
-
-5-Changes.json tekrar kontrol et.
-cat /home/yusuf/bsm/logs/changes.json
+Projenin Adımları
+1. Sanal Makine (Opsiyonel)
+Projeyi izole bir ortamda çalıştırmak isterseniz, VirtualBox, VMware veya KVM kullanarak bir sanal makine oluşturabilirsiniz.
