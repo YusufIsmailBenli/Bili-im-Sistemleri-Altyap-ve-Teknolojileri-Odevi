@@ -9,13 +9,16 @@ Projeyi izole bir ortamda çalıştırmak isterseniz, VirtualBox, VMware veya KV
 
 3. Python Kurulumu
 Linux üzerinde Python 3.8 veya daha güncel bir sürümün kurulu olduğundan emin olun:
-```bash
+```
 sudo apt update
 sudo apt install python3 python3-pip
 ```
 Gerekli Python kütüphanelerini yüklemek için pip kullanabilirsiniz:
+```
 pip install watchdog
-
+```
 3. Log Dizini Oluşturma
 Değişikliklerin kaydedileceği log dizinini oluşturun:
+```
 mkdir -p /home/user/bsm/logs
+```
