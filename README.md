@@ -9,7 +9,7 @@ Projeyi izole bir ortamda çalıştırmak isterseniz, VirtualBox, VMware veya KV
 
 3. Python Kurulumu
 Linux üzerinde Python 3.8 veya daha güncel bir sürümün kurulu olduğundan emin olun:
-'''bash
+```bash
 sudo apt update
 sudo apt install python3 python3-pip
 
