@@ -6,3 +6,15 @@ Bu proje, belirlenen bir dizindeki değişiklikleri izleyen ve bu değişiklikle
 Projenin Adımları
 1. Sanal Makine (Opsiyonel)
 Projeyi izole bir ortamda çalıştırmak isterseniz, VirtualBox, VMware veya KVM kullanarak bir sanal makine oluşturabilirsiniz.
+
+3. Python Kurulumu
+Linux üzerinde Python 3.8 veya daha güncel bir sürümün kurulu olduğundan emin olun:
+sudo apt update
+sudo apt install python3 python3-pip
+
+Gerekli Python kütüphanelerini yüklemek için pip kullanabilirsiniz:
+pip install watchdog
+
+3. Log Dizini Oluşturma
+Değişikliklerin kaydedileceği log dizinini oluşturun:
+mkdir -p /home/user/bsm/logs
