@@ -132,5 +132,7 @@ bsm/
 ```
 Notlar
 Log dosyası: /home/user/bsm/logs/changes.json
+
 İzlenecek dizin: /home/user/bsm/test
+
 Sistem servisi her yeniden başlatıldığında otomatik olarak çalışır.
