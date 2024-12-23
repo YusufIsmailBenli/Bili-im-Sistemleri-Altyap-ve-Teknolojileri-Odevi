@@ -122,3 +122,15 @@ Servisin çalışıp çalışmadığını kontrol edin:
 ```
 sudo systemctl status directory_watcher.service
 ```
+Proje Yapısı
+```
+bsm/
+├── logs/
+│   └── changes.json
+├── test/
+└── directory_watcher.py
+```
+Notlar
+Log dosyası: /home/user/bsm/logs/changes.json
+İzlenecek dizin: /home/user/bsm/test
+Sistem servisi her yeniden başlatıldığında otomatik olarak çalışır.
